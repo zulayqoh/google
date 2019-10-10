@@ -1,0 +1,29 @@
+li{
+    display: inline;
+    width: 500px;
+    grid-template: 
+    float: left;
+    width: 70%;
+}
+ul{
+    display: grid;
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#side-bar{
+    float: right;
+    width: 5%;
+}
+.footer{
+    display: grid;
+    width: auto;
+    grid-template: 1fr 1fr/1fr 1fr 1fr;
+    grid-gap: 10px 1px;
+    justify-content: end;
+    align-items: center;
+}
+.image{
+    display: grid;
+    width: auto;
+    justify-self: center;
+}
