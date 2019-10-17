@@ -1,18 +1,23 @@
 li{
     display: inline;
+    font-family: sans-serif;
     width: 500px;
     grid-template: 
     float: left;
     width: 70%;
 }
 ul{
-    display: grid;
+    display:;
     width: auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-#side-bar{
-    float: right;
-    width: 5%;
+#left-bar{
+    line-height: 1.6em;
+
+}
+#sideBar{
+    float: center;
+    width: auto;
 }
 .footer{
     display: grid;
@@ -23,7 +28,11 @@ ul{
     align-items: center;
 }
 .image{
-    display: grid;
-    width: auto;
-    justify-self: center;
+    display: g;
+    width: 1139px;
+    height: 233px;
+    align-self: right;
+}
+.lang{
+background-color: aquamarine;
 }
