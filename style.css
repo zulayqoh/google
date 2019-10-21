@@ -13,16 +13,15 @@ a:hover {
 }
 
 .rightbar ul .avatar {
+    align-items: center;
     background-color: rgb(12, 88, 201);
-    border: 10px solid rgb(12, 88, 201);
     border-radius: 50%;
-    font-size: 15px;
-    font-stretch: wider;
     color: aliceblue;
-}
-
-.avatar:hover {
-    border: solid #ccc 30px;
+    display: inline-flex;
+    font-size: 15px;
+    justify-content: center;
+    height: 33px;
+    width: 33px;
 }
 
 li {
