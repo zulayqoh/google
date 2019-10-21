@@ -1,14 +1,18 @@
-body{text-decoration: none;
+body {
+    text-decoration: none;
     font-family: arial,sans-serif;
     font-size: small;
 }
+
 a {
     text-decoration: none;
 }
-a:hover{
-     text-decoration-line: underline;
+
+a:hover {
+    text-decoration-line: underline;
 }
-.rightbar ul .avatar{
+
+.rightbar ul .avatar {
     background-color: rgb(12, 88, 201);
     border: 10px solid rgb(12, 88, 201);
     border-radius: 50%;
@@ -16,69 +20,76 @@ a:hover{
     font-stretch: wider;
     color: aliceblue;
 }
-.avatar:hover{
+
+.avatar:hover {
     border: solid #ccc 30px;
 }
-li{
-display: inline;
-color: rgb(12, 5, 43);
-} 
-.rightbar{
+
+li {
+    display: inline;
+    color: rgb(12, 5, 43);
+}
+
+.rightbar {
     margin-top: 20px;
     width: 100%;
     text-align: end;
     font-stretch: wider
 }
-.searchBar{
+
+.searchBar {
     width: 100%;
     text-align: center;
-
 }
-p{
+
+p {
     display: inline;
 }
-.input{
+
+.input {
     text-align: center;
     padding: 0em 0em 2em 0em;
     border: 2em;
     border-color: black;
     border-radius: 10%;
 }
-.nig{
+
+.nig {
     display: grid;
     grid-column: 1/10;
     padding: 1em;
     border-color: rgb(255, 255, 255);
 }
-.footer .nig{
+
+.footer .nig {
     border: 1px solid #ccc;
 }
-.footer{
+
+.footer {
     display: grid;
     width: auto;
     grid-template-columns: 1fr 1fr 1fr 4fr 1fr 1fr 1fr;
     grid-auto-rows: 1fr 1fr;
     background-color: #efefef;
     grid-gap: space-around;
-    border-bottom: solid em;
-    
+    border-bottom: solid em; 
 }
-.footer li{
+
+.footer li {
     justify-content: start;
-    ;
 }
-.lang{
+
+.lang {
     display: inline-block;
     text-align: center;
     width: 100%;
     color: rgb(12, 5, 43);
-
 }
-.image{
+
+.image {
     display: block;
     width: 20%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5em;
 }
-
