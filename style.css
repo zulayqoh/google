@@ -1,18 +1,145 @@
 body {
-    text-decoration: none;
     font-family: arial, sans-serif;
     font-size: small;
 }
 
-a {
-    text-decoration: none;
+li {
+    display: inline-block;
+    padding: 0px 0px 0px 15px;
 }
 
-a:hover {
+.navBar {
+    display: flex;
+    float: right;
+    padding: 0px 30px;
+}
+
+.navBar a {
+    text-decoration-line: none;
+    color: black;
+
+}
+
+.navBar a:hover {
+    color: darkgrey;
     text-decoration-line: underline;
 }
 
-.rightbar ul .avatar {
+.avatar {
+    color: cornsilk;
+    background-color: rgb(12, 78, 221);
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 6px 10px;
+    margin: 0px 0px 0px 15px;
+    cursor: pointer;
+}
+
+.midSection {
+    display: block;
+    text-align: center;
+}
+
+.image {
+   padding-top: 100px;
+   height: 183;
+}
+
+.input {
+    padding: 5px 8px 0px 14px;
+    height: 48px;
+    width: 600px;
+    border-radius: 30px;
+    cursor: text;
+    font: 16px;
+    border: 1px solid #dfe1e5;
+    
+}
+
+.input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+    box-shadow: #5F6368;
+}
+.searchBar {
+    height: 70px;
+    padding: 20px 0px 0px;
+}
+
+button {
+    background-color: #f2f2f2;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height: 36px;
+    color: #5F6368;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.lang li {
+    height: 28px;
+    margin-bottom: 24px;
+}
+
+.lang a {
+    text-decoration-line: none;
+    color: #1a0dab;
+}
+
+.lang a:hover {
+    text-decoration-line: underline;
+}
+
+footer {
+    margin: 70px -27px 0px -27px;
+    height: 80px;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+}
+
+p {
+    padding: 0px 0px 0px 57px;
+    margin: 0px 0px 0px 0px;
+    line-height: 40px;
+    border: 1px solid #e4e4e4;
+}
+
+.footer li {
+    padding-left: 25px;
+}
+
+.footer li:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 4fr 1fr 1fr 1fr;
+}
+/*
+li {
+    display: inline-block;
+    color: darkgray;;
+}
+.rightBar {
+    margin-top: 20px;
+    text-align: end;
+}
+
+.rightBar a:hover {
+    text-decoration-line: underline;
+    color: gray;
+
+.navBar ul.avatar {
     align-items: center;
     background-color: rgb(12, 88, 201);
     border-radius: 50%;
@@ -24,17 +151,9 @@ a:hover {
     width: 33px;
 }
 
-li {
-    display: inline;
-    color: rgb(12, 5, 43);
-}
 
-.rightbar {
-    margin-top: 20px;
-    width: 100%;
-    text-align: end;
-    font-stretch: wider
-}
+
+
 
 .midSection {
     text-align: center;
@@ -45,9 +164,11 @@ p {
 }
 
 .input {
-    width: 500px;
-    padding: 10px;
-    border: 0.2em solid black;
+    border: 1px solid lightslategray;
+    border-radius: 25px;
+    height: 45px;
+    padding: 20px;
+    width: 550px;
 }
 
 .nig {
@@ -78,3 +199,4 @@ p {
 .image {
     text-align: center;
 }
+*/
